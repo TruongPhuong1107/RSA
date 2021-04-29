@@ -180,7 +180,7 @@ namespace RSA
         private string GetKeyFromFile(string xmlKeyFileName)
         {
             StreamReader reader = new StreamReader(xmlKeyFileName);
-            String xmlPublicKey = "";
+            String xmlPublicKey = ""; 
 
             xmlPublicKey = reader.ReadToEnd();
 
